@@ -1,5 +1,11 @@
 # anki-storage
 
+## 1.0.3
+
+### Patch Changes
+
+- be9c83a: fix: umd extension
+
 ## 1.0.2
 
 ### Patch Changes

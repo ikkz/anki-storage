@@ -7,6 +7,6 @@ interface AnkiStorage {
     localStorage: AsyncStorage
 }
 
-declare function getAnkiStorage(): Promise<AnkiStorage>;
+declare function getAnkiStorage(page?: string): Promise<AnkiStorage>;
 
 export { getAnkiStorage };

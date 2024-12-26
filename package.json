@@ -4,15 +4,16 @@
   "type": "module",
   "files": [
     "dist",
-    "page"
+    "page",
+    "types.d.ts"
   ],
   "main": "./dist/anki-storage.umd.cjs",
   "module": "./dist/anki-storage.js",
-  "types": "./types.d.ts",
   "exports": {
     ".": {
       "import": "./dist/anki-storage.js",
-      "require": "./dist/anki-storage.umd.cjs"
+      "require": "./dist/anki-storage.umd.cjs",
+      "types": "./types.d.ts"
     }
   },
   "scripts": {

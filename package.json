@@ -1,8 +1,20 @@
 {
   "name": "anki-storage",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "files": [
+    "dist",
+    "page"
+  ],
+  "main": "./dist/anki-storage.umd.cjs",
+  "module": "./dist/anki-storage.js",
+  "types": "./types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/anki-storage.js",
+      "require": "./dist/anki-storage.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build -c page.config.js && vite build -c lib.config.js",

@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/lib.ts'),
-      name: 'IkkzAnkiStorage',
+      name: 'AnkiStorage',
     },
     outDir: 'dist',
   }

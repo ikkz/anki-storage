@@ -11,9 +11,9 @@
   "module": "./dist/anki-storage.js",
   "exports": {
     ".": {
+      "types": "./types.d.ts",
       "import": "./dist/anki-storage.js",
-      "require": "./dist/anki-storage.umd.cjs",
-      "types": "./types.d.ts"
+      "require": "./dist/anki-storage.umd.cjs"
     }
   },
   "scripts": {

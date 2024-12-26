@@ -19,9 +19,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build -c page.config.js && vite build -c lib.config.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "pnpm build && pnpm changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.11",
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
     "vite-plugin-singlefile": "^2.1.0"

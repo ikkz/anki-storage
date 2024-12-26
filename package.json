@@ -7,13 +7,13 @@
     "page",
     "types.d.ts"
   ],
-  "main": "./dist/anki-storage.umd.cjs",
+  "main": "./dist/anki-storage.umd.js",
   "module": "./dist/anki-storage.js",
   "exports": {
     ".": {
       "types": "./types.d.ts",
       "import": "./dist/anki-storage.js",
-      "require": "./dist/anki-storage.umd.cjs"
+      "require": "./dist/anki-storage.umd.js"
     }
   },
   "scripts": {
